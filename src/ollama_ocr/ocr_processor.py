@@ -11,7 +11,7 @@ import pymupdf
 import numpy as np
 
 class OCRProcessor:
-    def __init__(self, model_name: str = "llama3.2-vision:11b", 
+    def __init__(self, model_name: str = "llama3.2-vision", 
                  base_url: str = "http://localhost:11434/api/generate",
                  max_workers: int = 1):
         
