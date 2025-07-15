@@ -188,10 +188,10 @@ def main():
                         try:
                             if uploaded_file.name.lower().endswith('.pdf'):
                                 # Display a placeholder for PDFs
-                                st.image("https://via.placeholder.com/150?text=PDF", caption=uploaded_file.name, use_column_width=True)
+                                st.image("https://via.placeholder.com/150?text=PDF", caption=uploaded_file.name, use_container_width=True)
                             else:
                                 image = Image.open(uploaded_file)
-                                st.image(image, caption=uploaded_file.name, use_column_width=True)
+                                st.image(image, caption=uploaded_file.name, use_container_width=True)
                         except Exception as e:
                             st.error(f"Error displaying {uploaded_file.name}: {e}")
 
