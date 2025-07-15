@@ -142,7 +142,7 @@ def main():
         # Model info box
         if selected_model == "llava:7b":
             st.info("LLaVA 7B: Efficient vision-language model optimized for real-time processing")
-        elif selected_model == "llama3.2-vision:11b":
+        elif selected_model == "llama3.2-vision":
             st.info("Llama 3.2 Vision: Advanced model with high accuracy for complex text extraction")
         elif selected_model == "granite3.2-vision":
             st.info("Granite 3.2 Vision: Robust model for detailed document analysis")
